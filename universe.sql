@@ -1,6 +1,3 @@
-
-
-
 --
 -- PostgreSQL database dump
 --
@@ -484,4 +481,11 @@ ALTER TABLE ONLY public.moon
 
 ALTER TABLE ONLY public.planet
     ADD CONSTRAINT foreign_star FOREIGN KEY (star_id) REFERENCES public.star(star_id);
+
+
+
+
+
+
+
 
